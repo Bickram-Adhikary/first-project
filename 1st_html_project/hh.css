@@ -1,0 +1,68 @@
+body{
+  font-family: Arial, Helvetica ;
+  background-color:slategray;
+  margin: -4px;
+  padding: 0;
+}
+#wrapper{
+  width: 1020px;
+  border: 0px solid black;
+  background-color:white;
+  margin: 0 auto;
+}
+#header{
+  background-color:crimson;
+  height: 100px;
+  color: white;
+}
+#header h1{
+ padding: 20px;
+}
+#manu{
+  background-color:lightsalmon;
+  color: black;
+}
+#manu li{
+  display:inline-block;
+}
+ #manu ul{
+  margin: 0;
+  padding: 0;
+} 
+#manu li a{
+  display: block;
+  padding: 10px 13px;
+  color: black;
+}
+#manu li a:hover{
+  background: crimson;
+  color: white;
+}
+#content{
+  width: 800px;
+  min-height: 500px;
+  padding: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+#sidebar{
+  background-color:lightblue;
+  min-height: 500px;
+  width: 200px;
+  float: right;
+}
+#sidebar a{
+  text-decoration: none;
+  color: black;
+}
+#footer{
+  background-color:lightsalmon;
+  text-align: right;
+  padding: 5px 10px ;
+  clear: both;
+}
+@media screen and(max-width:510px) {
+  #wrapper{
+    width: auto;
+  } 
+}

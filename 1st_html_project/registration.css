@@ -1,53 +1,14 @@
-body{
-    background-color:rgba(0, 0, 255, 0.701)
+.parent{
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    left: 100px;
+    border: 2px solid #346567;
 }
-.doit{
-    height: 260px;
-    width: 350px;
-    
-    background-color: white;
-    position: relative;left: 50%;
-    top: 132px;
-    padding: 70px 30px;
-}
-.yes{ 
-    background-image: url(https://media.istockphoto.com/id/538866580/photo/annapurna-mountains.jpg?s=612x612&w=0&k=20&c=OXJ2wEhrtznVA2SCTYHGn46QArkINwC8teKChj1Af9A=);
-    height: 400px;
-    width: 350px;
-    position: absolute;right: 768px;top: 140px;
-}
-    
-.doit input{
-    width: 100%;
-    margin-bottom: 10px;
-    font-size: 10px;
-}
-h1{
-    position:absolute;top: 1%;left: 140px;
-    font-size: 25px;
-}
-.doit input[type="text"]{
-    font-size: 30px;
-    border-radius: 20px;
-    font-family: Verdana;
-}
-.doit input[type="password"]{
-    font-size: 30px;
-    border-radius: 20px;
-}
-.doit input[type="submit"]{
-    background-color: red;
-    font-size: 20px;
-    border-radius: 20px;
-    color: blue;
-    /* size: 10px; */
-    /* padding: 10px; */
-    /* text-size-adjust: 10px; */
-     -ms-text-size-adjust: 5px;
-}
-
- ::placeholder{
-   color: aqua;
-   font-size: 15px;
-   position: absolute;top: 10px;left: 10px;
+.child{
+    height: 50px;
+    width: 10px;
+    position: relative;
+    top: 5%;
+    background-color: black;
 }
