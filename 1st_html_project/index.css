@@ -68,3 +68,126 @@ body{
 
  }
  
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to left,rgba(235, 135, 235, 0.999),rgb(130, 135, 238));
+ 
+      /* background-color:skyblue; */
+
+}
+#one{
+    height: 300px;
+    width: 300px;
+    background-color:rgb(130, 152, 238);
+    transform: rotate(60deg);
+    position: absolute;
+    margin-left: -200px;
+}
+#two{
+    height: 600px;
+    width: 400px;
+    background-color:rgb(130, 135, 238);
+    transform: rotate(60deg);
+    position: absolute;top: 70%;left: 20%;
+}
+#three{
+    height: 300px;
+    width: 500px;
+    background-color:rgba(245, 135, 235, 0.999);
+    transform: rotate(60deg);
+    position: absolute;
+    position: absolute;left: 85%;top: 180px;
+}
+
+.login{
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    position: absolute;right: 600px;top: 100px;
+    border-radius: 20px;
+    padding: 60px 30px;
+}
+h1{
+    font-size: 20px;
+    position: absolute;top: 5px;left: 102px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+p{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 10px;
+}
+.login input{
+   margin-bottom: 20px;
+   width: 100%;
+}
+.login input[type="text"],input[type="user name"]{
+    /* border-bottom:1px solid gray ; */
+    background: white;
+    /* font-size: 4px;   */
+    /* border-radius: 10px; */
+}
+.login input[type="text"],input[type="Password"]{
+    background-color: white;
+   border-bottom: 1px solid rgb(214, 212, 212)!important;
+   border: none;
+   
+}
+.login input[type=submit]{
+    background-image: linear-gradient(to left,rgba(235, 135, 235, 0.999),rgb(130, 135, 238));
+    border-radius: 20px;
+    height: 40px;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    margin-top: 20px;  
+}
+#first{
+    position: absolute;
+    left: 150px;top: 164px;
+    font-size: 10px;
+    color: blue;
+}
+#second{
+  margin-top:40px;
+  position: absolute;left: 80px;top: 220px;
+}
+#third{
+   position: absolute;left: 90px;top:380px;
+   font-size: 13px;
+}
+#forth{
+    position: absolute;left: 100px;top: 400px;
+    font-size: 12px;
+}
+.victory{
+   position: absolute;right: 160px;top: 290px;
+   height: 30px;
+   width: 50px;
+   border-radius: 50%;
+   background-color: white;
+}
+.won{
+    position: absolute;right: 120px;top:290px;
+   height: 30px;
+   width:30px;
+}
+.joy{
+  position: absolute;right: 70px;top:286px ;
+  height: 40px;
+  width: 40px;
+}
+.win{
+  position: absolute;top: 80px;left: 12px;
+  height: 17px;
+  width: 15px;
+  padding-right: 20px;
+}
+.bijoy
+{
+    position: absolute;top: 138px;left: 12px;
+    height: 17px;
+    width: 15px;
+}
