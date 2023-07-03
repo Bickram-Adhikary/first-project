@@ -1,0 +1,57 @@
+.contanier{
+  width: 720px;
+  background-color: whitesmoke;
+  margin: 70px 0 0 50px;
+  display: grid;
+  grid-template-columns: 200px 300px auto;
+  grid-template-rows: 120px 60px  400px 50px;
+  
+  grid-template-areas: "header header header"
+                       "manu manu manu "
+                       /* "Box1 Box2 sideber" */
+                       "contain contain sideber"
+                       "footer footer footer";
+   
+               
+}
+.header{
+ background-color: red;
+ grid-area: header;
+}
+.manu{
+ background-color:yellow;
+ grid-area: manu;
+}
+.manu li{
+  display: inline-block;
+}
+.manu li a{
+  padding: 5px 10px;
+}
+/* .Box1{
+ background-color: tomato;
+ grid-area: Box1;
+}
+.Box2{
+ background-color: orange;
+ grid-area: Box2;
+} */
+.footer{
+background-color: orangered;
+grid-area: footer;
+ 
+}
+.footer h3{
+  display: grid;
+  justify-content: end;
+}
+.sideber{
+ background-color: yellowgreen;
+ grid-area: sideber;
+
+}
+.contain{
+background-color: goldenrod;
+ grid-area: contain;
+ padding: 10px;
+}
